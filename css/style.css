@@ -5,12 +5,9 @@ body {
   line-height: 15px;
 }
 
-.location:hover {
+.location:hover, .content:hover {
   background-color: hotpink;
-}
-
-.content:hover {
-  background-color: hotpink;
+  cursor: pointer;
 }
 
 .location, .content {
