@@ -5,21 +5,18 @@ body {
   line-height: 15px;
 }
 
+.location:hover {
+  background-color: hotpink;
+}
+
 .location, .content {
   box-sizing: border-box;
   float: left;
   width: 90%;
   padding: 1%;
   margin: 0 auto;
-}
-
-.location:hover {
-  background-color: hotpink;
-}
-
-.arrow {
-  float: right;
-  width: 10%;
+  background-color: #fff;
+  height: auto;
 }
 
 .container {
@@ -42,6 +39,11 @@ nav {
   width: 100%;
 }
 
+.arrow {
+  float: right;
+  width: 10%;
+}
+
 #name h1 {
   color: #000;
   font-weight: bold;
@@ -49,7 +51,7 @@ nav {
 }
 
 #location h3 {
-  color: 000;
+  color: #000;
   font-size: 15px;
   line-height: 20px;
 }
