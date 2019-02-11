@@ -9,6 +9,10 @@ body {
   background-color: hotpink;
 }
 
+.content:hover {
+  background-color: hotpink;
+}
+
 .location, .content {
   box-sizing: border-box;
   float: left;
@@ -28,7 +32,7 @@ nav {
   box-sizing: border-box;
   margin: 0%;
   float: left;
-  padding-top: 0%;
+  padding-top: 1%;
   position: relative;
   width: 90%;
   background-color: #000;
@@ -42,6 +46,10 @@ nav {
 .arrow {
   float: right;
   width: 10%;
+}
+
+.arrow-left {
+  padding-bottom: 3%;
 }
 
 #name h1 {
