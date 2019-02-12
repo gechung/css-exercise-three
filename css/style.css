@@ -5,7 +5,7 @@ body {
   line-height: 15px;
 }
 
-.location:hover, .content:hover {
+.location:hover {
   background-color: #c0c0c0;
   cursor: pointer;
 }
@@ -16,8 +16,7 @@ body {
   width: 90%;
   padding: 1%;
   margin: 0 auto;
-  background-color: #cdcdcd;
-  height: auto;
+  height: 4em;
 }
 
 .location {
@@ -47,7 +46,7 @@ nav {
 .arrow {
   float: right;
   width: 10%;
-  padding-top: 2.5%;
+  padding-top: 1em;
 }
 
 .arrow-left {
