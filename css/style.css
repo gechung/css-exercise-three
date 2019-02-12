@@ -1,12 +1,12 @@
 body {
-  background-color: #cdcdcd;
+  background-color: #808080;
   font-family: sans-serif;
   font-size: 15px;
   line-height: 15px;
 }
 
 .location:hover, .content:hover {
-  background-color: hotpink;
+  background-color: #c0c0c0;
   cursor: pointer;
 }
 
@@ -16,8 +16,12 @@ body {
   width: 90%;
   padding: 1%;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #cdcdcd;
   height: auto;
+}
+
+.location {
+  border-bottom: solid 1px #000;
 }
 
 .container {
@@ -43,20 +47,15 @@ nav {
 .arrow {
   float: right;
   width: 10%;
+  padding-top: 2.5%;
 }
 
 .arrow-left {
   padding-bottom: 3%;
+  padding-top: 2.5%;
+  padding-left: 3%;
 }
 
-#name h1 {
-  color: #000;
+h1 {
   font-weight: bold;
-  font-size: 17px;
-}
-
-#location h3 {
-  color: #000;
-  font-size: 15px;
-  line-height: 20px;
 }
